@@ -6,7 +6,7 @@ import { ChatMessage, Finding, Project, Review, UploadedDocument } from '../mode
 @Injectable({ providedIn: 'root' })
 export class AssistantReviewMockService {
   private readonly http = inject(HttpClient);
-  private readonly evaluatorUrl = '/api/evaluator/evaluate';
+  private readonly evaluatorUrl = 'https://medical-coverage-evaluator.onrender.com/evaluate';
 
   readonly projects = signal<Project[]>([
     {

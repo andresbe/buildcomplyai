@@ -60,8 +60,7 @@
               "buildTarget": "build-comply-ai:build:production"
             },
             "development": {
-              "buildTarget": "build-comply-ai:build:development",
-              "proxyConfig": "proxy.conf.json"
+              "buildTarget": "build-comply-ai:build:development"
             }
           },
           "defaultConfiguration": "development"
