@@ -1,0 +1,11 @@
+{
+  "/api/evaluator": {
+    "target": "https://medical-coverage-evaluator.onrender.com",
+    "secure": true,
+    "changeOrigin": true,
+    "logLevel": "debug",
+    "pathRewrite": {
+      "^/api/evaluator": ""
+    }
+  }
+}
